@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("https://i.pinimg.com/originals/bf/7f/e6/bf7fe677458b68ee2228e8547c532b9c.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 10px rgba(255, 255, 255, 80%);
+    color: #502775;
+}
+
+.User-Name-Input,
+.Quantity-Increase-Input {
+    background-color: rgba(255, 255, 255, 40%);
+    color: #502775;
+    border: 1.5px solid #502775;
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px 20px;
+    font-size: medium;
+    font-weight: 550;
+    outline: none;
+}
+
+.Submit-Btn{
+    font-size: 22px;
+    border-radius: 5px;
+    width: 500px;
+    border: none;
+    background-color: #502775;
+    color: white;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 10px rgba(255, 255, 255, 80%);
+    margin-top: 25px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.Submit-Btn:hover{
+    background-color: #814fad;
+}
