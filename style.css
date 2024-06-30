@@ -40,22 +40,23 @@ h1 {
     outline: none;
 }
 
-.Submit-Btn{
+.Submit-Btn {
     font-size: 22px;
     border-radius: 5px;
-    width: 500px;
+    width: 100%;
+    max-width: 400px;
     border: none;
     background-color: #502775;
     color: white;
+    margin: 25px 15px;
     padding: 5px 20px;
     box-shadow: 1px 1px 10px rgba(255, 255, 255, 80%);
-    margin-top: 25px;
     letter-spacing: 1.5px;
     cursor: pointer;
     font-weight: bold;
     transition: all .5s;
 }
 
-.Submit-Btn:hover{
+.Submit-Btn:hover {
     background-color: #814fad;
 }
