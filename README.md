@@ -17,3 +17,7 @@ To start increasing your GitHub profile views:
 
 Here's a sneak peek of the project UI:
 ![Increase Profile Views UI](https://github.com/ZAINKHAN25/Increase-Profile-Views/assets/121414309/02fea562-7768-4c05-a5f5-75ee84cbe309)
+
+## Known Issues
+
+The `increaseView` function in the code is not functional. Modern browsers block multiple `window.open` calls in a loop as it is considered intrusive behavior. This function will not work as intended.
